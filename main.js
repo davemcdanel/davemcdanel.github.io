@@ -42,11 +42,11 @@ function setBgGreet() {
     greeting.textContent = 'Good Morning, ';
   } else if (hour < 18) {
     // Afternoon
-    document.body.style.backgroundImage = "url('https://dave.mcdanel.gitea.kc0bpo.net/afternoon.jpg')";
+    document.body.style.backgroundImage = "url('https://davemcdanel.github.io/afternoon.jpg')";
     greeting.textContent = 'Good Afternoon, ';
   } else {
     // Evening
-    document.body.style.backgroundImage = "url('https://i.ibb.co/924T2Wv/night.jpg')";
+    document.body.style.backgroundImage = "url('https://davemcdanel.github.io/night.jpg')";
     greeting.textContent = 'Good Evening, ';
     document.body.style.color = 'white';
   }
