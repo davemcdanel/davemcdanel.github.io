@@ -38,7 +38,7 @@ function setBgGreet() {
     
   if (hour < 12) {
     // Morning
-    document.body.style.backgroundImage = "url('https://i.ibb.co/7vDLJFb/morning.jpg')";
+    document.body.style.backgroundImage = "url('https://davemcdanel.github.io/morning.jpg')";
     greeting.textContent = 'Good Morning, ';
   } else if (hour < 18) {
     // Afternoon
